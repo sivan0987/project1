@@ -24,7 +24,8 @@ advancedClassificationRecursion.o: advancedClassificationRecursion.c NumClass.h
 	gcc -c advancedClassificationRecursion.c
 
 
-mains:main.o libclassrec.a
+ma
+ins:main.o libclassrec.a
 	gcc $(FLAGS) -o mains main.o libclassrec.a -lm
 maindloop: main.o libclassloops.so
 	gcc $(FLAGS) -o maindloop main.o ./libclassloops.a -lm
