@@ -6,7 +6,7 @@ all: libclassloops.a libclassrec.a libclassloops.so libclassrec.so mains maindlo
 recursives:
 libclassrec.a: basicClassification.o advancedClassificationRecursion.o
 	ar -rcs  libclassrec.a advancedClassificationRecursion.o basicClassification.o
-loops:
+loops:libclassloops.a
 libclassloops.a: advancedClassificationLoop.o basicClassification.o
 	ar -rcs libclassloops.a libclassloops.a advancedClassificationLoop.o basicClassification.o
 recursived:
