@@ -4,24 +4,22 @@
 
 int reverse(int n){
      int  a = 0;
-     int remainder;
+     int r;
     while (n != 0) 
     {
-        remainder = n % 10;
-        a = a * 10 + remainder;
-        n /= 10;
+        r = n % 10;
+        a = a * 10 + r;
+        n =n/ 10;
     }
     return a;
 }
-int dig(int num)
-{
-int  digits = 0;
-            while(num != 0)
-            {
-                num/=10;
-                digits++;
-            }
-            return digits;
+int numOfDigit(int x){
+    int num=0;
+    while(x!=0 ){
+        num++;
+        x=x/10;
+   }
+   return num;
 }
 
 int isArmstrong1(int num,int sum,int n)
