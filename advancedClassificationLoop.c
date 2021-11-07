@@ -1,5 +1,6 @@
 #include "NumClass.h"
 #include <math.h>
+
 int numOfDigit(int x){
     int num=0;
     while(x!=0 ){

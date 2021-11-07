@@ -2,6 +2,7 @@ CC=gcc
 AR=ar
 FLAGS= -Wall -g
 
+
 all: libclassloops.a libclassrec.a libclassloops.so libclassrec.so mains maindloop maindrec 
 recursives:
 libclassrec.a: basicClassification.o advancedClassificationRecursion.o

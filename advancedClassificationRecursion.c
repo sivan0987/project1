@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 #include "NumClass.h"
+
+//turn the number 
 int reverse(int n){
      int  a = 0;
      int r;
