@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//check the factorial of the number 
+//factorial
 int calc(int x){
     int sum =1;
     while(x!=0){
