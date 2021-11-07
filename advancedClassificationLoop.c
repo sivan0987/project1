@@ -4,11 +4,11 @@
 
 int reverse(int n){
      int  a = 0;
-     int remainder;
+     int r;
     while (n != 0) 
     {
-        remainder = n % 10;
-        a = a * 10 + remainder;
+        r = n % 10;
+        a = a * 10 + r;
         n /= 10;
     }
     return a;

@@ -9,7 +9,7 @@ libclassrec.a: basicClassification.o advancedClassificationRecursion.o
 	ar -rcs  libclassrec.a advancedClassificationRecursion.o basicClassification.o
 loops:
 libclassloops.a: advancedClassificationLoop.o basicClassification.o
-	ar -rcs libclassloops.a libclassloops.a advancedClassificationLoop.o basicClassification.o
+	ar -rcs  libclassloops.a advancedClassificationLoop.o basicClassification.o
 recursived:
 libclassrec.so: basicClassification.o advancedClassificationRecursion.o
 	gcc  -shared -o libclassrec.so basicClassification.o advancedClassificationRecursion.o
