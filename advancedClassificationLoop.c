@@ -1,6 +1,6 @@
 #include "NumClass.h"
 #include <math.h>
-int numOfDigit(int x){;
+int numOfDigit(int x){
     int num=0;
     while(x!=0 ){
         num++;
@@ -8,7 +8,7 @@ int numOfDigit(int x){;
    }
    return num;
 }
-
+//turn the number 
 int reverse(int n){
      int  a = 0;
      int remainder;
