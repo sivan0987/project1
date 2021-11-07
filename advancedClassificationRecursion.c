@@ -37,7 +37,7 @@ else
 
 int isArmstrong(int num)
 {
-int n=dig(num);
+int n=numOfDigit(num);
 int sumArm=isArmstrong1(num,0,n);
 if(sumArm==num)
 return 1;
