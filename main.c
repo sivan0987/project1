@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "NumClass.h"
 
-int main(){
+int  main(){
 int x,y;
 
 scanf("%d",&x);
@@ -46,5 +46,6 @@ printf("The Armstrong numbers are:");
         }
     }
     printf("\n");
+   return 0;
    
 }
